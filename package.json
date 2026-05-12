@@ -1,0 +1,36 @@
+{
+  "name": "chotu-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A futuristic AI-powered student productivity and coding operating system.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.105.4",
+    "clsx": "2.1.1",
+    "firebase": "12.13.0",
+    "framer-motion": "12.38.0",
+    "lucide-react": "1.14.0",
+    "next": "16.2.6",
+    "next-themes": "0.4.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "recharts": "3.8.1",
+    "tailwind-merge": "3.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.0",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "4.3.0",
+    "typescript": "5.9.3"
+  }
+}
